@@ -13,7 +13,7 @@
     </div>
   
     <div class="form-group">
-      <label for="empresa">Nombre de la empres</label>
+      <label for="empresa">Nombre de la empresa</label>
       <input required #empresa="ngModel" ngModel type="text" class="form-control" name="empresa">
       <span *ngIf="empresa.invalid && empresa.touched" class="error">El nombre de la empresa es requerido</span>
     </div>
